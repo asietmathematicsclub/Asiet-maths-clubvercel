@@ -122,15 +122,6 @@ const STATIC_EVENTS = [
         description: "“Mathematics is the language in which God has written the universe.” — Galileo Galilei\n\n✨This Pi Day, the Mathematics Club ASIET celebrates the beauty of π (pi)—a timeless constant that represents the harmony between mathematics, science, and the universe.\n\n🌐From the circles we draw to the technologies we build, π reminds us that mathematics is infinite in its possibilities and discoveries. Let us celebrate curiosity, logic, and the endless pursuit of knowledge that mathematics inspires.\n\nHappy Pi Day",
         image_path: "/uploads/piday_2026.png",
         link: ""
-    },
-    {
-        id: 5,
-        title: "Website Launch",
-        date: "14/03",
-        location: "Seminar Hall",
-        description: "3.14",
-        image_path: "/uploads/1772247214299.png",
-        link: ""
     }
 ];
 
