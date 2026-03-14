@@ -160,6 +160,11 @@ const STATIC_EXECOM = [
         id: 3,
         caption: "Publicity Team",
         image_path: "/uploads/1772245014805.jpeg"
+    },
+    {
+        id: 2,
+        caption: "Event Team",
+        image_path: "/uploads/1771735322601.jpeg"
     }
 ];
 
