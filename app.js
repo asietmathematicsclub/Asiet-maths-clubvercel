@@ -113,7 +113,17 @@ const STATIC_ACTIVITIES = [
     }
 ];
 
-const STATIC_EVENTS = [];
+const STATIC_EVENTS = [
+    {
+        id: 7,
+        title: "Can You Solve? - A Fun Way to Master Maths",
+        date: "07/04/2026",
+        location: "EC Seminar Hall",
+        description: "“Pure mathematics is, in its way, the poetry of logical ideas.”\n~Albert Einstein\n\nMost people don’t struggle with maths, they struggle with how it’s taught.\n\nMathematics Club ASIET brings to you 'Can You Solve? - A Fun Way to Master Maths' to help you learn your maths the right way.\n\nResource person:\nDr. Aparna Lakshmanan S\nProfessor\nDepartment of Mathematics, CUSAT\n\nTime🕙: 11:00 AM – 1:00 PM\nJoin us and be part of something meaningful.\n\nFor further enquiries, contact:\nMeenakshi: +91 7736858318\nGouri: +91 9496994121",
+        image_path: "/uploads/canyousolve_2026.jpg",
+        link: ""
+    }
+];
 
 const STATIC_EXECOM = [
     {
