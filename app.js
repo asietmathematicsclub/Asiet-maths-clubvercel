@@ -63,6 +63,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const STATIC_ACTIVITIES = [
     {
+        id: 8,
+        title: "PI DAY CELEBRATIONS",
+        description: "The Basic Science and Humanities Department organized Pi Day celebrations on 7th April 2026 at the EC Mini Seminar Hall from 11:00 a.m. to 1:00 p.m. The event began with a prayer by Keerthana P Kini, followed by a welcome speech delivered by Ms. Sajitha Saseendran, Faculty-in-charge of the Mathematics Club.\n\nA key highlight of the program was the official launch of the Mathematics Club website, developed by Anandhakrishnan S Prabhu (S4 EEE, Technical Lead), which was appreciated by the dignitaries.\n\nThe event was graced by Chief Guest Dr. Aparna Lakshmanan S, Professor, Department of Mathematics, CUSAT. Felicitation addresses were delivered by Dr. Sreepriya S, Dean of Research, ASIET, and Dr. Jayanthi K R, Head of the BSH Department.\n\nThe technical session titled “Can you solve? A fun way to master Maths” by the chief guest was highly engaging and interactive. Students actively participated and enthusiastically shared their feedback, making the session lively and impactful.\n\nThe program concluded with a vote of thanks by the Chairperson, Meenakshi M Menon.",
+        images: [
+            "/uploads/canyousolve_2026.jpeg",
+            "/uploads/piday_2026.png",
+            "/uploads/piday1.png",
+            "/uploads/piday2.png",
+            "/uploads/piday3.png",
+            "/uploads/piday4.png",
+            "/uploads/piday5.png",
+            "/uploads/piday6.png",
+            "/uploads/piday7.png",
+            "/uploads/piday8.png",
+            "/uploads/piday9.png"
+        ]
+    },
+    {
         id: 7,
         title: "MATHS ESCAPE  CARNIVAL ",
         description: "Mathescape Carnival was held on February 5, 2026, at the Physics Lab-G02. The five-round team event \ntested participants' logical thinking, problem-solving skills, and teamwork. Teams of two competed \nenthusiastically for a prize pool of ₹2,500, making the program engaging and successful. Abhijith \nShylajan and Anvin M J (S2 CSE) secured the first prize, while Lino Shyjan and George Joy (S2 EEE) \nsecured the second prize at the Mathescape Carnival.",
