@@ -131,7 +131,18 @@ const STATIC_ACTIVITIES = [
     }
 ];
 
-const STATIC_EVENTS = [];
+const STATIC_EVENTS = [
+    {
+        id: 1,
+        title: "THE AMAZING STORY OF PI",
+        date: "25-07-26 SATURDAY",
+        time: "7:00 PM - 8:00 PM",
+        location: "Online Session",
+        description: "An engaging online session organized as part of Pi Day Celebrations by Meenakshi M Menon, Chairperson of Mathematics Club, ASIET.",
+        image_path: "/uploads/pi_day_talk_poster.png", // Replace with your uploaded poster file path
+        link: "https://forms.gle/oW6enoWGrGzEi1abA" // Replace with your Google Form URL
+    }
+];
 
 const STATIC_EXECOM = [
     {
@@ -278,7 +289,12 @@ function loadEvents() {
                 <p class="event-desc">${escapeHtml(event.description)}</p>
                 ${event.link ? `<a href="${event.link}" target="_blank" class="event-link-btn">Learn More</a>` : ''}
             </div>
-        `;
+        `;// Redirect to Google Form when clicking anywhere on the card/poster
+        if (event.link) {
+            card.addEventListener('click', () => {
+                window.open(event.link, '_blank');
+            });
+        }
         container.appendChild(card);
     });
 }
