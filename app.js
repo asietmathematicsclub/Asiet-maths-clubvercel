@@ -286,6 +286,9 @@ function loadEvents() {
                 <div class="event-info">
                     <span class="event-location">📍 ${escapeHtml(event.location)}</span>
                 </div>
+                <div class="event-info">
+                    <span class="event-time"> ${escapeHtml(event.time)}</span>
+                </div>
                 <p class="event-desc">${escapeHtml(event.description)}</p>
                 ${event.link ? `<a href="${event.link}" target="_blank" class="event-link-btn">Learn More</a>` : ''}
             </div>
