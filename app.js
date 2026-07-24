@@ -290,7 +290,7 @@ function loadEvents() {
                     <span class="event-time"> ${escapeHtml(event.time)}</span>
                 </div>
                 <p class="event-desc">${escapeHtml(event.description)}</p>
-                ${event.link ? `<a href="${event.link}" target="_blank" class="event-link-btn">Learn More</a>` : ''}
+                ${event.link ? `<a href="${event.link}" target="_blank" class="event-link-btn">Click to join</a>` : ''}
             </div>
         `;// Redirect to Google Form when clicking anywhere on the card/poster
         if (event.link) {
