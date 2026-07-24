@@ -137,7 +137,7 @@ const STATIC_EVENTS = [
         title: "THE AMAZING STORY OF PI",
         date: "25-07-26 SATURDAY",
         time: "7:00 PM - 8:00 PM",
-        location: "Online Session",
+        location: "Online Session on G-Meet",
         description: "An engaging online session organized as part of Pi Day Celebrations by Meenakshi M Menon, Chairperson of Mathematics Club, ASIET.",
         image_path: "/uploads/pi_day_talk_poster.jpeg", // Replace with your uploaded poster file path
         link: "https://forms.gle/oW6enoWGrGzEi1abA" // Replace with your Google Form URL
