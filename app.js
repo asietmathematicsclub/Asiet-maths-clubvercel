@@ -139,7 +139,7 @@ const STATIC_EVENTS = [
         time: "7:00 PM - 8:00 PM",
         location: "Online Session",
         description: "An engaging online session organized as part of Pi Day Celebrations by Meenakshi M Menon, Chairperson of Mathematics Club, ASIET.",
-        image_path: "/uploads/pi_day_talk_poster.png", // Replace with your uploaded poster file path
+        image_path: "/uploads/pi_day_talk_poster.jpeg", // Replace with your uploaded poster file path
         link: "https://forms.gle/oW6enoWGrGzEi1abA" // Replace with your Google Form URL
     }
 ];
