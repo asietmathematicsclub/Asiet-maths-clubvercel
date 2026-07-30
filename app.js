@@ -139,11 +139,18 @@ const STATIC_ACTIVITIES = [
     }
 ];
 
-const STATIC_EVENTS = [
-    {
-        
+const STATIC_EVENTS = [ 
+    {//add new events here in format of 
+        //id: 1,
+       // title: "",
+       // date: "",
+       // time: "",
+      //  location: "Online Session on G-Meet",
+       // description: "",
+       // image_path:"" , // Replace with your uploaded poster file path
+       //link: "" // Replace with your Google Form URL
     }
-];
+       ];
 
 const STATIC_EXECOM = [
     {
