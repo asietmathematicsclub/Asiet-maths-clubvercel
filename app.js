@@ -63,7 +63,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const STATIC_ACTIVITIES = [
     {
-        id: 8,
+        id: 9,
+        title: "THE AMAZING STORY OF PI",
+        description: "The Mathematics Club, ASIET, organized an online webinar titled \"The Amazing Story of Pi\" on 25th July 2026, from 7:00 p.m. to 8:00 p.m., via Google Meet, in association with the Pi Approximation Day Celebration.\n\nThe program commenced with a Felicitation Address by Dr. Jayanthi K. R., Head of the Department of Basic Science and Humanities. The session was led by Ms. Meenakshi M. Menon, Chairperson of the Mathematics Club and a Seventh Semester student of the EBE Department. Through her presentation, titled \"The Amazing Story of Pi,\" she took the participants on an engaging journey through the history, evolution, and real-world applications of the mathematical constant π. The session covered fascinating contributions from renowned mathematician Madhava of Sangamagrama, while also highlighting the applications of Pi in fields including space exploration, signal processing, quantum physics, medical imaging, GPS, and general relativity.\n\nThe webinar was highly interactive, with participants actively engaging in discussions, answering quiz questions, and seeking clarifications throughout the session. A feedback session was conducted at the end of the program, during which participants shared their appreciation and valuable suggestions.\n\nThe event concluded with a Vote of Thanks delivered by Ms. Gouri, Vice Chairperson of the Mathematics Club.",
+        images: [ "/uploads/pi_day_talk_poster.jpeg",
+                 "/uploads/pi_day_talk_poster1.jpeg",
+                 "/uploads/pi_day_talk_poster2.jpeg"
+                 ]
+    },
+    {  id: 8,
         title: "PI DAY CELEBRATIONS",
         description: "The Basic Science and Humanities Department organized Pi Day celebrations on 7th April 2026 at the EC Mini Seminar Hall from 11:00 a.m. to 1:00 p.m. The event began with a prayer by Keerthana P Kini, followed by a welcome speech delivered by Ms. Sajitha Saseendran, Faculty-in-charge of the Mathematics Club.\n\nA key highlight of the program was the official launch of the Mathematics Club website, developed by Anandhakrishnan S Prabhu (S4 EEE, Technical Lead), which was appreciated by the dignitaries.\n\nThe event was graced by Chief Guest Dr. Aparna Lakshmanan S, Professor, Department of Mathematics, CUSAT. Felicitation addresses were delivered by Dr. Sreepriya S, Dean of Research, ASIET, and Dr. Jayanthi K R, Head of the BSH Department.\n\nThe technical session titled “Can you solve? A fun way to master Maths” by the chief guest was highly engaging and interactive. Students actively participated and enthusiastically shared their feedback, making the session lively and impactful.\n\nThe program concluded with a vote of thanks by the Chairperson, Meenakshi M Menon.",
         images: [
@@ -133,14 +141,7 @@ const STATIC_ACTIVITIES = [
 
 const STATIC_EVENTS = [
     {
-        id: 1,
-        title: "THE AMAZING STORY OF PI",
-        date: "25-07-26 SATURDAY",
-        time: "7:00 PM - 8:00 PM",
-        location: "Online Session on G-Meet",
-        description: "An engaging online session organized as part of Pi Approximation Day Celebrations by Meenakshi M Menon, Chairperson of Mathematics Club, ASIET.",
-        image_path: "/uploads/pi_day_talk_poster.jpeg", // Replace with your uploaded poster file path
-        link: "https://forms.gle/oW6enoWGrGzEi1abA" // Replace with your Google Form URL
+        
     }
 ];
 
