@@ -273,7 +273,7 @@ function loadEvents() {
     const events = STATIC_EVENTS;
 
     if (events.length === 0) {
-        container.innerHTML = '<p class="loading-spinner">No upcoming events scheduled. Stay tuned!</p>';
+        container.innerHTML = '<p class="loading-spinner">Have an idea for an event? Contact us and let us know what you want to see!</p>';
         return;
     }
 
