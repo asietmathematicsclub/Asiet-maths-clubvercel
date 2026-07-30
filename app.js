@@ -140,8 +140,9 @@ const STATIC_ACTIVITIES = [
 ];
 
 const STATIC_EVENTS = [ 
-    {//add new events here in format of 
-        //id: 1,
+    //add new events here in format of 
+    //{  
+    //id: 1,
        // title: "",
        // date: "",
        // time: "",
@@ -149,8 +150,8 @@ const STATIC_EVENTS = [
        // description: "",
        // image_path:"" , // Replace with your uploaded poster file path
        //link: "" // Replace with your Google Form URL
-    }
-       ];
+    //}
+ ];
 
 const STATIC_EXECOM = [
     {
