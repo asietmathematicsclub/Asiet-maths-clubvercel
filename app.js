@@ -141,7 +141,17 @@ const STATIC_ACTIVITIES = [
 
 const STATIC_EVENTS = [];
     //add new events here in format of 
-    //{  
+    {
+    id: 1,
+    title: "CHATURA: COMPETITIVE SUDOKU CHALLENGE",
+    date: "9 September, 2026",
+    time: "2 PM",
+    location: "Main Seminar Hall",
+    description: "“Success is the sum of small efforts, repeated day in and day out.” — Robert Collier. Mathematics Club ASIET presents CHATURA, a team Sudoku challenge that puts logic, precision, and teamwork to the test. Team Size: 2 Participants per Team | Rounds: 5 | Prize Pool: ₹2000. #chathura #mathematicsclubasiet #bshdepartment",
+    image_path: "uploads/Chatura.jpeg",
+    link: "https://forms.gle/XyAPfnRsKePrAsBp8"
+    }
+//{  
     //id: 1,
        // title: "",
        // date: "",
@@ -152,16 +162,7 @@ const STATIC_EVENTS = [];
        //link: "" // Replace with your Google Form URL
     //}
 
-{
-    id: 1,
-    title: "CHATURA: COMPETITIVE SUDOKU CHALLENGE",
-    date: "9 September, 2026",
-    time: "2 PM",
-    location: "Main Seminar Hall",
-    description: "“Success is the sum of small efforts, repeated day in and day out.” — Robert Collier. Mathematics Club ASIET presents CHATURA, a team Sudoku challenge that puts logic, precision, and teamwork to the test. Team Size: 2 Participants per Team | Rounds: 5 | Prize Pool: ₹2000. #chathura #mathematicsclubasiet #bshdepartment",
-    image_path: "uploads/Chatura.jpeg",
-    link: "https://forms.gle/XyAPfnRsKePrAsBp8"
-}
+
 
 const STATIC_EXECOM = [
     {
