@@ -1,0 +1,53 @@
+% use it in this link -https://www.overleaf.com/
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+
+\begin{document}
+
+\noindent
+[Your Name / Coordinator Name] \\ % <-- Add your name here
+Workshop Coordinator \\
+Department of [Your Department Name] \\ % <-- Add your department here
+Adi Shankara Institute of Engineering and Technology
+
+\vspace{1em}
+\noindent [Date] % <-- Add date here (e.g., September 15, 2026)
+
+\vspace{1em}
+\noindent To, \\
+The Principal, \\
+Adi Shankara Institute of Engineering and Technology, \\
+Kalady, Kerala
+
+\vspace{1em}
+\noindent \textbf{Subject:} Request for grant of Duty Leave for [Name of Event/Workshop] % <-- Add event name
+
+\vspace{1em}
+\noindent Respected Sir/Madam,
+
+\vspace{0.5em}
+\noindent I am writing to you on behalf of the Department of [Your Department Name]. I kindly request your permission to grant Duty Leave to the students from respective departments on [Date of Leave], as listed in the attached document.
+
+\vspace{0.5em}
+\noindent These students have registered for and are attending the [Name of Event/Workshop] organized by [Organizing Department/Club]. This session provides crucial exposure and practical experience, which is highly beneficial for their academic and professional development.
+
+\vspace{0.5em}
+\noindent We would appreciate your approval for granting duty leave to the students listed in the attached sheet. We are ready to comply with the institution's guidelines regarding attendance and academic tracking.
+
+\vspace{1em}
+\noindent Thank you for your time and constant support of academic and technical initiatives.
+
+\vspace{1.5em}
+\noindent Yours sincerely,
+
+\vspace{1.5em}
+\noindent
+[Your Name / Coordinator Name] \\ % <-- Add your name here
+Workshop Coordinator / Faculty In-Charge \\
+Department of [Your Department Name] \\
+Adi Shankara Institute of Engineering and Technology
+
+
+
+\end{document}
