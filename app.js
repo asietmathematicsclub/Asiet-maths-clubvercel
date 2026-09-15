@@ -67,7 +67,7 @@ const STATIC_ACTIVITIES = [
     description: "“Success is the sum of small efforts, repeated day in and day out.” — Robert Collier. Mathematics Club ASIET presents CHATURA, a team Sudoku challenge that puts logic, precision, and teamwork to the test. Team Size: 2 Participants per Team | Rounds: 5 | Prize Pool: ₹2000. #chathura #mathematicsclubasiet #bshdepartment",
     images:[ "uploads/Chatura.jpeg"]
     
-    }
+    },
     {
         id: 9,
         title: "THE AMAZING STORY OF PI",
