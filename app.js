@@ -64,8 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
 const STATIC_ACTIVITIES = [
     { id: 10,
     title: "CHATURA: COMPETITIVE SUDOKU CHALLENGE",
-    description: "“Success is the sum of small efforts, repeated day in and day out.” — Robert Collier. Mathematics Club ASIET presents CHATURA, a team Sudoku challenge that puts logic, precision, and teamwork to the test. Team Size: 2 Participants per Team | Rounds: 5 | Prize Pool: ₹2000. #chathura #mathematicsclubasiet #bshdepartment",
-    images:[ "uploads/Chatura.jpeg"]
+    description: "CHATURA: BATTLE OF THE GRID  The Mathematics Club, ASIET, organized a five-round team Sudoku challenge on 9th September 2026 to promote logical thinking, teamwork, and problem-solving. The event saw 50 teams register, with 42 teams (84 participants) competing enthusiastically. Winners: 🥇 Abhinav & Aman Sharaf – S1 CSE DS 🥈 Vismaya P V & Ziya Fathima K – S3 CSE C 🥉 Arjun R & Salmanul Fariz C S – S1 ME. Certificates and cash prizes were awarded by Dr. Jayanthi K. R., HoD of Basic Science & Humanities. The event concluded successfully, providing students with an engaging platform to sharpen their logical reasoning and collaborative skills. #chathura #mathematicsclubasiet #bshdepartment",
+    images:[ "uploads/Chatura.jpeg",
+            "uploads/Chatura2.jpeg",
+            "uploads/chatura1.jpeg"]
     
     },
     {
