@@ -1,0 +1,102 @@
+%overleaf latex code - https://www.overleaf.com/7516444745pskfyjrmzcsm#7b2aea
+\documentclass[11pt, a4paper]{article}
+
+% Page Geometry & Margins
+\usepackage[a4paper, margin=2.5cm]{geometry}
+
+% Overleaf Compatible Font & Encoding (pdfLaTeX default)
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet} % Modern sans-serif font matching institutional letterheads
+\renewcommand{\familydefault}{\sfdefault}
+
+% Packages for Styling & Media
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Color Palette Customization
+\definecolor{primary}{RGB}{18, 43, 76}      % Deep Navy Blue
+\definecolor{secondary}{RGB}{70, 80, 95}    % Slate Gray
+\definecolor{linecolor}{RGB}{180, 190, 200}  % Light Accent Line
+
+% Paragraph Spacing Settings
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+
+\begin{document}
+
+% ==============================================================================
+% HEADER / LETTERHEAD SECTION
+% ==============================================================================
+\begin{center}
+\begin{minipage}[c]{0.20\textwidth}
+    \centering
+    % Linked to your uploaded logo image:
+    \includegraphics[width=2.2cm, height=2.2cm, keepaspectratio]{logo.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.80\textwidth}
+    \centering
+    % Main Organization Title
+    {\Huge \bfseries \color{primary} MATHEMATICS CLUB}\\[4pt]
+    % Department / Division
+    {\small \bfseries \color{secondary} DEPARTMENT OF BASIC SCIENCE AND HUMANITIES (BSH)}\\[2pt]
+    % Parent Institution / Address
+    {\small \color{secondary} Adi Shankara Institute of Engineering \& Technology, Kalady}
+\end{minipage}
+\end{center}
+
+\vspace{0.4em}
+{\color{primary}\hrule height 1.5pt}
+\vspace{2pt}
+{\color{linecolor}\hrule height 0.5pt}
+
+\vspace{1.5em}
+
+% ==============================================================================
+% RECIPIENT & METADATA SECTION
+% ==============================================================================
+
+\textbf{To}\\
+The Principal\\
+Adi Shankara Institute of Engineering and Technology\\
+Kalady
+
+\vspace{0.5em}
+
+\textbf{Date :} 23-09-2026
+
+\vspace{0.8em}
+
+\textbf{Subject: Request for Permission to Conduct a Calculator Workshop for First-Year Students}
+
+\vspace{0.8em}
+
+% ==============================================================================
+% LETTER BODY
+% ==============================================================================
+
+Respected Sir,
+
+We, the Mathematics Club, kindly request permission to conduct a Calculator Workshop for the first-year students on Friday, 25 September 2026, from 2:00 PM to 4:00 PM.
+
+The workshop is intended to familiarize the students with the various functions and features of scientific calculators and help them use calculators effectively for their academic and examination purposes.
+
+We kindly request you to grant us permission to conduct the workshop as proposed.
+
+\vspace{3em}
+
+% ==============================================================================
+% CLOSING & SIGNATURE BLOCK
+% ==============================================================================
+
+Yours respectfully,
+
+\vspace{3.5em}
+
+Chairperson\\
+Meenakshi M Menon\\
+\textbf{Mathematics Club}\\
+Department of Basic Science and Humanities (BSH)
+
+\end{document}
